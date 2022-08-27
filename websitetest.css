@@ -77,7 +77,6 @@ div.uitproberen img.top{
 	left: 0;
 	top: 0;
 	opacity: 0;
-	transition: .5s;
 }
 
 div.uitproberen img.top:hover{
