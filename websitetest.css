@@ -16,6 +16,7 @@ header{
 /*logo kleiner*/
 .logo{
 height: 70px;
+margin-right: auto;
 }
 
 /*lijstje staat horizontaal naast logo in header*/
@@ -23,7 +24,7 @@ nav{
 	width: 100%;
 	display: flex;
 	align-items: center;
-	
+	justify-content: flex-end;
 	padding: 20px 0;
 }
 
@@ -34,7 +35,7 @@ nav ul li{
 	display: inline-block;
 	list-style: none;
 	text-align: right;
-	margin: 0px 20px 0px 20px;
+	margin: 0px 40px 0px 20px;
 }
 
 nav ul li a{
@@ -43,8 +44,9 @@ nav ul li a{
 	color: black;
 }
 
-nav ul li p{
+nav p{
 	font-size: 20px;
 	padding-left: 0;
-
+	margin-right: 850px;
+	margin-left: 0px;
 }
