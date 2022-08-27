@@ -25,9 +25,8 @@ nav{
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
-	padding: 20px 0;
+	padding: 20px 75px 20px 0;
 }
-
 
 
 /*iets met lijstje*/
@@ -35,12 +34,29 @@ nav ul li{
 	display: inline-block;
 	list-style: none;
 	text-align: right;
-	margin: 0px 40px 0px 20px;
+	margin: 0px 50px 0px 20px;
+	position: relative;
 }
 
 nav ul li a{
-	margin: 0 20px 0 20px;
+	margin: 0 0px 0 0px;
 	text-decoration: none;
-	color: black;
+	color: #2c2c2e;
+	text-transform: uppercase;
+}
+
+nav ul li::after{
+	content: '';
+	height: 3px;
+	width: 0;
+	background: #86bad2;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	transition: 0.5s;
+}
+
+nav ul li:hover::after{
+	width: 100%;
 }
 
